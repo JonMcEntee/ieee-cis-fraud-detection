@@ -2,34 +2,34 @@
 
 <img src="https://github.com/JonMcEntee/ieee-cis-fraud-detection/blob/main/credit-card-fraud.png?raw=true" width="50%" height="50%">
 
-## 📌 Overview
+## Overview
 
 This repository contains my solution to Kaggle's [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection) competition, aiming to predict fraudulent online transactions. The project demonstrates a complete machine learning workflow from exploratory data analysis to model deployment.
 
-## 🏆 Competition Background IEEE-CIS
+## Competition Background IEEE-CIS
 
 Institute of Electrical and Electronics Engineers - Computational Intelligence Society partnered with industry experts to create this challenge, using real-world transaction data from Vesta Corporation, a leading payment service company. 
 
-## 🧠 Methodology
+## Methodology
 
 The notebook implements a comprehensive approach: 
 
-### 🔍 Data Exploration
+### Data Exploration
 - Feature distribution visualization
 - Statistical relevance examination using T-tests and Chi-squared
 
-### 🤖 Modeling Approaches
+### Modeling Approaches
 - Logistic Regression
 - Multi-layer Perceptron
 - XGBoost
 - Random Forest
 
-### 📊 Evaluation Metrics
+### Evaluation Metrics
 - Primary: AUC-ROC (Area Under the Receiver Operating Characteristic Curve)
 - Secondary: Precision-Recall curves
 - Additional: Top 5 and top 10 precision scores
 
-## 🚀 Getting Started
+## Getting Started
 ### Prerequisites
 - Python 3.7+
 - Jupyter Notebook/Lab
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 jupyter notebook IEEE_CIS_Fraud_Detection.ipynb
 ```
 
-## 🏗 Project Structure 
+## Project Structure 
 
 ``` 
 ieee-cis-fraud-detection/ 
@@ -63,7 +63,7 @@ ieee-cis-fraud-detection/
 └── requirements.txt # Python dependencies
 ```
 
-## 💡 Key Insights
+## Key Insights
 
 1. **Class Imbalance Challenge**:
 - Only 3.5% of transactions were fraudulent
@@ -74,7 +74,7 @@ ieee-cis-fraud-detection/
 3. **Performance**:
 - Best single model: XGBoost (AUC = 0.917)
 
-## 📊 Results
+## Results
 
 | Model | Train AUC | Test AUC | Train PR AUC | Test PR AUC | Precision K5 | Precision K10 |
  ------ | --------- | -------- | ------------ | ----------- | ------------ | ------------- |
@@ -84,7 +84,7 @@ ieee-cis-fraud-detection/
 | XGBoost | 0.980381 | 0.917417 | 0.878228 | 0.558776 | 1.0 | 1.0 |
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
  - Kaggle and IEEE-CIS for hosting the competition
  - Vesta Corporation for providing the dataset
  - Kaggle community for shared insights and techniques
