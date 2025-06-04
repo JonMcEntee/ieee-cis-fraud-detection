@@ -53,16 +53,6 @@ pip install -r requirements.txt
 jupyter notebook IEEE_CIS_Fraud_Detection.ipynb
 ```
 
-## Project Structure 
-
-``` 
-ieee-cis-fraud-detection/ 
-├── data/ # Data directory (not included in repo) 
-├── IEEE_CIS_Fraud_Detection.ipynb # Main notebook 
-├── README.md # This file
-└── requirements.txt # Python dependencies
-```
-
 ## Key Insights
 
 1. **Class Imbalance Challenge**:
